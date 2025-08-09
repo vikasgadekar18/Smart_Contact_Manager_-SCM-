@@ -1,11 +1,9 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    './scm/src/main/resources/templates/**/*.html', // for Thymeleaf
-    './scm/src/main/resources/static/js/**/*.js'     // optional: if using JS
-  ],
+export default {
+  content: ["./src/main/resources/**/*.{html,js}"],
   theme: {
     extend: {},
   },
   plugins: [],
-}
+  darkMode: "selector",
+};
