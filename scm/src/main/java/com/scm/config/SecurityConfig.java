@@ -79,6 +79,7 @@ public class SecurityConfig {
         httpSecurity.formLogin(formLogin -> {
 
             //
+
             formLogin.loginPage("/login");
             formLogin.loginProcessingUrl("/authenticate");
             formLogin.successForwardUrl("/user/profile");
