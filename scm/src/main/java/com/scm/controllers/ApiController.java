@@ -11,6 +11,7 @@ import com.scm.services.ContactService;
 
 @RestController
 @RequestMapping("/api")
+
 public class ApiController {
 
     // get contact

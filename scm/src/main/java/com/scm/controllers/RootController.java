@@ -17,6 +17,7 @@ public class RootController {
     private Logger logger = org.slf4j.LoggerFactory.getLogger(this.getClass());
 
     @Autowired
+
     private UserService userService;
 
     @ModelAttribute

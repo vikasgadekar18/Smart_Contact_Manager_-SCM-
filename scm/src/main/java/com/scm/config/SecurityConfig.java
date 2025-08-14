@@ -12,6 +12,7 @@ import org.springframework.security.web.SecurityFilterChain;
 import com.scm.services.impl.SecurityCustomUserDetailService;
 
 @Configuration
+
 public class SecurityConfig {
 
     // user create and login using java code with in memory service

@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.scm.entities.Contact;
+
 import com.scm.entities.User;
 import com.scm.forms.ContactForm;
 import com.scm.forms.ContactSearchForm;
